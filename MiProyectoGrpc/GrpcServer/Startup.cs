@@ -7,4 +7,4 @@ var client = new Greeter.GreeterClient(channel);
 
 var reply = await client.SayHelloAsync(new HelloRequest { Name = "Mundo" });
 
-Console.WriteLine("Respuesta del servidor: " + reply.Message);  // Debería imprimir "Holaa Mundo"
+Console.WriteLine("Respuesta del servidor: " + reply.Message);  
